@@ -1,1 +1,28 @@
-# L1
+# L1 This is a simple Java programming language using HelloWorld.
+This is the source code of the program:
+
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+  }
+}
+```
+
+Notice that `System.out.println("Hello world!");` shows the string `"Hello world!"` on the screen.
+
+## Compile program
+
+To compile the "Hello World" program, type the following:
+
+```console
+javac HelloWorld.java
+```
+
+## Execute the program
+
+To execute the program, type this:
+
+```console
+java HelloWorld
+```
